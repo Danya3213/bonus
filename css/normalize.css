@@ -1,0 +1,23 @@
+.container 
+{
+    /* margin: 0 49px; */
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1122px;
+}
+
+*
+{
+    font-family: 'Inter';
+    color: #101010;
+}
+
+
+button
+{
+    background-color: initial;
+    cursor: pointer;
+    padding: 14px 34px;
+    border-radius: 100px;
+    text-transform: capitalize;
+}
