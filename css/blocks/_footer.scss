@@ -1,0 +1,17 @@
+.footer {
+
+    background-color: var(--color-black);
+    padding: 28px 0;
+    
+    &__inner {
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__text {
+
+        @include typography (11px, 11px, var(--color-coffee))
+    }
+}

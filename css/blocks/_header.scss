@@ -1,0 +1,41 @@
+.header {
+    margin-top: 23px;
+
+    &::after {
+        content: '';
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: url(../../img/header.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        z-index: -1;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__list {
+        display: flex;
+
+        &:first-child {
+            gap: 32px;
+        }
+
+        &:last-child {
+            gap: 38px;
+        }
+    }
+
+    &__list-item {
+        @include typography (11px, 24px, var(--color-coffee));
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+    }
+}

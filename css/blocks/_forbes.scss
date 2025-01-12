@@ -1,0 +1,62 @@
+.forbes {
+    background-color: var(--color-white);
+    padding: 116px 0 112px;
+
+    &__inner {
+        
+        display: grid;
+        grid-template-columns: 492px 426px;
+        justify-content: space-between; 
+    }
+
+    &__column {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        &:first-of-type {
+
+            .forbes__column-title {
+                
+                margin-bottom: 61px;
+            }
+        }
+    
+        &:last-of-type {
+    
+            .forbes__column-title {
+                
+                margin-bottom: 68px;
+            }
+        }
+    }
+
+    &__img--dots {
+
+        margin-bottom: 48px;
+    }
+
+    &__column-title {
+        @include typography (24px, 32px, var(--color-coffee));
+    }
+
+    &__bottom {
+
+        display: flex;
+        align-items: center;
+        gap: 29px;
+    }
+
+    &__image--cirle {
+
+        @include circle;
+    }
+
+    &__bottom-text {
+
+        @include typography (14px, 24px, var(--color-coffee));
+        text-align: left;
+    }
+}

@@ -1,0 +1,31 @@
+.mission {
+
+    padding: 139px 0 97px;
+    border-bottom: 1px solid var(--color-black-glassy);
+    background-image: url(../../img/footer.png);
+    background-size: cover;
+    background-position: bottom;
+
+    &__subtitle {
+
+        @include typography (15px, 16px, var(--color-coffee-alt));
+        margin-bottom: 19px;
+    }
+
+    &__main-title {
+
+        @include typography (48px, 54px, var(--color-background));
+        max-width: 666px;
+        margin-bottom: 24px;
+    }
+
+    &__button {
+
+        @include typography (12px, 20px, var(--color-coffee));
+        letter-spacing: 2px;
+        padding: 0;
+        border-radius: 0;
+        padding-bottom: 13.5px;
+        border-bottom: 1px solid var(--color-coffee);
+    }
+}

@@ -1,0 +1,21 @@
+// @use
+
+@import
+    './utils/fonts',
+    './utils/reset',
+    './utils/variables',
+    './utils/utils',
+    './utils/globals',
+    './utils/mixins';
+
+@import
+    './blocks/header',
+    './blocks/head',
+    './blocks/button',
+    './blocks/future',
+    './blocks/point',
+    './blocks/forbes',
+    './blocks/questions',
+    './blocks/mission',
+    './blocks/info',
+    './blocks/footer'

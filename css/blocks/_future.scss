@@ -1,0 +1,24 @@
+.future {
+    padding: 76px 0 75px;
+
+    &__inner {
+        display: grid;
+        grid-template-columns: 509px 539px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__text-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    &__main-title {
+        @include typography (54px, 58px)
+    }
+
+    &__text {
+        max-width: 452px;
+    }
+}

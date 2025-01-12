@@ -1,0 +1,25 @@
+:root {
+    --color-coffee: rgb(228, 216, 204);
+    --color-coffee-alt: rgb(195, 186, 177);
+    --color-coffee-glassy: rgba(228, 216, 204, 0.5);
+    --color-coffee-glassiest: rgba(228, 216, 204, 0.16);
+    --color-background: rgb(231, 223, 216);
+    --color-violet: rgb(120, 55, 243);
+    --color-violet-alt: rgb(185, 159, 234);
+    --color-orange: rgb(235, 167, 137);
+    --color-green: rgb(150, 219, 198);
+    --color-white: rgb(255, 255, 255);
+    --color-white-alt: rgb(231, 223, 216);
+    --color-black: rgb(16, 16, 16);
+    --color-black-glassy: rgba(16, 16, 16, 10%);
+
+    --border-radius-big: 100px;
+    --border-radius-small: 12px;
+    
+    --font-family-base: 'Inter';
+
+    --container-width: 1152px;
+    --container-padding-x: 15px;
+
+    --transition-duration: 0.2s;
+}

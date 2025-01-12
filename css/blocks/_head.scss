@@ -1,0 +1,19 @@
+.head {
+    margin: 45vh 0 24vh;
+
+    &__main-title {
+        @include typography(57px, 60px, var(--color-coffee));
+        max-width: 840px;
+        margin-bottom: 14px;
+    }
+
+    &__subtitle {
+        @include typography(18px, 28px, var(--color-coffee-alt));
+        margin-bottom: 42px;
+    }
+
+    &__button-list {
+        display: flex;
+        gap: 16px;
+    }
+}

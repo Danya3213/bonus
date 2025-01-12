@@ -1,0 +1,75 @@
+.info {
+
+    padding-top: 78px;
+    background-color: var(--color-black);
+    position: relative;
+
+    &__inner {
+
+        border-bottom: 1px solid var(--color-coffee-glassiest);
+        padding-bottom: 121px;
+    }
+
+    &__header {
+
+        display: grid;
+        grid-template-columns: 218px 251px;
+        grid-column-gap: 42px;
+        grid-template-rows: 24px 43px;
+        grid-row-gap: 19px;
+        margin-bottom: 86px;
+    }
+
+    &__button-title {
+
+        @include typography (23px, 24px, var(--color-coffee));
+    }
+
+    &__button--violet {
+
+        padding: 9px 32px;
+    }
+    
+    &__button--transparent {
+        padding: 9px 25px;
+    }
+
+    &__main {
+        display: grid;
+        grid-template-columns: 162px 141px 136px;
+        grid-column-gap: 75px;
+    }
+
+    &__list {
+        
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+    }
+
+    &__list-title {
+
+        @include typography (20px, 16px, var(--color-coffee));
+        margin-bottom: 11px;
+    }
+
+    &__list-item {
+
+        @include typography (16px, 12px, var(--color-coffee));
+    }
+
+    &__footer {
+
+        position: absolute;
+        right: 72px;
+        bottom: 121px;
+        display: flex;
+        flex-direction: column;
+        gap: 47px;
+    }
+
+    &__footer-title {
+
+        @include typography (14px, 28px, var(--color-coffee));
+    }
+}
