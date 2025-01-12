@@ -50,6 +50,7 @@
     img[class$="__image"] {
 
         border-radius: var(--border-radius-small);
+        object-fit: cover;
     }
 
     div[class$="__content"] {
